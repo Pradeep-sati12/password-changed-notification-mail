@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "pradeep-sati12/password-changed-notification-mail",
+    "description": "mail send when ever password changed",
     "keywords": [
-        ":vendor_name",
+        "Pradeep-sati12",
         "laravel",
-        ":package_slug"
+        "password-changed-notification-mail"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/pradeep-sati12/password-changed-notification-mail",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Pradeep Sati",
+            "email": "pradeep.sati@velsof.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Pradeep-sati12\\PasswordChangedNotificationMail\\": "src",
+            "Pradeep-sati12\\PasswordChangedNotificationMail\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Pradeep-sati12\\PasswordChangedNotificationMail\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -56,10 +56,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Pradeep-sati12\\PasswordChangedNotificationMail\\PasswordChangedNotificationMailServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "PasswordChangedNotificationMail": "Pradeep-sati12\\PasswordChangedNotificationMail\\Facades\\PasswordChangedNotificationMail"
             }
         }
     },
